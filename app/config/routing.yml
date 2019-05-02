@@ -1,0 +1,14 @@
+#app:
+#    resource: '@AppBundle/Controller/'
+#    type: annotation
+app_api:
+    resource: '@AppBundle/Controller/'
+#    type: rest
+    prefix: /annotation
+
+fos_user:
+    resource: "@FOSUserBundle/Resources/config/routing/all.xml"
+    #prefix: /api
+
+api_login_check:
+    path: /api/login_check
